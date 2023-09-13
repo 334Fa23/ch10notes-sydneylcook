@@ -359,6 +359,19 @@ footer p a {
   }
 }
 
+/* Tablet Viewport: Animation */
+@webkit-keyframes text-animation {
+    0% { font-size: 1em; }
+    50% { font-size: 2em; }
+    100% { font-size: 1.35em; }
+}
+
+@keyframes text-animation {
+    0% { font-size: 1em; }
+    50% { font-size: 2em; }
+    100% { font-size: 1.35em; }
+}
+
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 1015px), print {
 
