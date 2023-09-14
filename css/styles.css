@@ -317,6 +317,15 @@ footer p a {
   #exercises dd {
     padding: 0.5% 1% 2% 0;
   }
+    
+    .viewer {
+        font-weight: bold;
+        cursor: pointer;
+    } 
+    
+  #example {
+    display: none;
+    }
 
   .tel-num {
     font-size: 1.25em;
@@ -363,26 +372,26 @@ footer p a {
   }
     
 /* Tablet Viewport: Animation */
-@-webkit-keyframes text-animation {
+  @-webkit-keyframes text-animation {
     0% { font-size: 1em; }
     50% { font-size: 2em; }
     100% { font-size: 1.35em; }
-}
+  }
 
-@keyframes text-animation {
+  @keyframes text-animation {
     0% { font-size: 1em; }
     50% { font-size: 2em; }
     100% { font-size: 1.35em; }
-}
+  }
     
-figcaption {
+  figcaption {
     -webkit-animation-name: text-animation;
     animation-name: text-animation;
     -webkit-animation-delay: 3s;
     animation-delay: 3s;
     -webkit-animation-duration: 5s;
     animation-duration: 5s;
-    }
+  }
 }
 
 /* Media Query for Desktop Viewport */
