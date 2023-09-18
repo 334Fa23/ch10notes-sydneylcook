@@ -24,7 +24,7 @@ function hamburger() {
 
 //Function to display the burpees example video
 function burpees() {
-    videoSource.src = "media/burpees.mp4"
+    videoSource.src = "media/burpees.mp4";
     descriptionSource.src = "media/burpees-descriptions.vtt";
     video.style.display = "block";
     video.load();
@@ -32,7 +32,7 @@ function burpees() {
 
 //Function to display the plank example video
 function plank() {
-    videoSource.src = "media/plank.mp4"
+    videoSource.src = "media/plank.mp4";
     descriptionSource.src = "media/plank-descriptions.vtt";
     video.style.display = "block";
     video.load();
@@ -40,7 +40,7 @@ function plank() {
 
 //Function to display the mountain climbers example video
 function mountain() {
-    videoSource.src = "media/mc.mp4"
+    videoSource.src = "media/mc.mp4";
     descriptionSource.src = "media/mountain-descriptions.vtt";
     video.style.display = "block";
     video.load();
