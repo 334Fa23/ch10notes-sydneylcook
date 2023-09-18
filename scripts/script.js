@@ -7,7 +7,7 @@
 //Global variables
 var video = document.getElementById("example");
 var videoSource = document.getElementById("vid-src");
-var description = document.getElementById ("despsrc");
+var descriptionSource = document.getElementById ("despsrc");
 
 //Hamburger menu function
 function hamburger() {
